@@ -17,7 +17,7 @@ from wallet_store import load_wallet, save_wallet, clear_wallet
 load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://403c1f0c17a2.ngrok-free.app")
 
 ADDR_RE = re.compile(r"\b0x[a-fA-F0-9]{40}\b")
 
