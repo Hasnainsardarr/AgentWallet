@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://seal-app-93xsi.ondigitalocean.app/api',
   headers: {
     'Content-Type': 'application/json',
   },
